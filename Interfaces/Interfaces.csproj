@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompleteAthlete.cs" />
+    <Compile Include="IAthlete.cs" />
+    <Compile Include="ISkier.cs" />
+    <Compile Include="ISwimmer.cs" />
+    <Compile Include="ITennisPlayer.cs" />
+    <Compile Include="IUniversalAthlete.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoccerPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
