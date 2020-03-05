@@ -12,10 +12,8 @@ namespace Interfaces
 
         public int CompareTo(object obj)
         {
-            if(obj is SoccerPlayer)
+            if (obj is SoccerPlayer soccerPlayer)
             {
-                SoccerPlayer soccerPlayer = (SoccerPlayer)obj;
-
                 if (name == soccerPlayer.name &&
                     surname == soccerPlayer.surname &&
                     team == soccerPlayer.team)
